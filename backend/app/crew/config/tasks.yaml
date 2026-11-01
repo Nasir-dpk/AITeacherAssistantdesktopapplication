@@ -1,0 +1,5 @@
+prepare_lesson:
+  description: >-
+    Draft an outline for a requested lesson. Phase 01 wiring only — this task
+    is never executed and no LLM is contacted.
+  expected_output: "A concise lesson outline in plain text."
