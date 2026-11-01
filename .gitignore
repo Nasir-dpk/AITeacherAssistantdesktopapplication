@@ -1,0 +1,32 @@
+# --- Node / frontend ---------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# --- Tauri / Rust ------------------------------------------------------------
+src-tauri/target/
+src-tauri/gen/
+
+# --- Python ------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+
+# --- Environment & secrets ---------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Logs & OS artifacts -----------------------------------------------------
+logs/
+*.log
+.DS_Store
+Thumbs.db
